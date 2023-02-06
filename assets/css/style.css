@@ -1,27 +1,80 @@
 * {
     box-sizing: border-box;
   }
-  
+  /* Styling the format for the whole page */
+
   body {
     margin: 10px;
     padding: 200px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    line-height: 1.5;
-  
+    line-height: 1;
+    background-color: lightpink;
   }
+
   
+  nav {
+    position: fixed;
+    text-justify: inter-word;
+    top: 0%;
+    left: 0%;
+    width:100%;
+    margin: 10px;
+    padding: 20px;
+    background-color: aquamarine;
+    box-shadow: 0px 5px 10px;
+  }
+
   #navBar {
     display: flex;
-    flex-direction: row;
-    margin: 0px 5%;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 50%;
+    margin: auto;
   }
-  #navBar h1 {
-    width: 25%;
-    font-weight: 500;
-  } 
-  h2 {
+
+  .logo a {
     color: red;
+    font-size: 30px;
+    font-weight: 600;
+    
   }
+  .menu {
+    display: flex;
+  }
+
+  .menu li {
+    list-style:circle;
+    margin: 10px 30%;
+  
+  }
+
+  .menu li a {
+    color: red;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  section {
+    height: 50vh;
+    width: 100%;
+    align-items: center;
+  }
+
+  /*#navBar h1 {
+    width: flex;
+    font-weight: 500;
+  } */ 
+
+  h1 {
+
+  }
+
+  /*h2 {
+    color: darkred;
+    -webkit-text-stroke: 1px white
+  }*/
+
   h3,
   h4,
   h5,
@@ -30,5 +83,20 @@
   }
   
   p {
-    margin: 0;
+    margin: 3%;
+    font-size: smaller;
+    font-style: italic;
+    font-weight: bolder;
+  }
+
+  footer {
+    display: flex;
+    
+  }
+
+  @media screen and (max-width:600px) {
+    body {
+      background-color: red;
+      font-size: 12px;
+    }
   }
