@@ -84,48 +84,60 @@
   .page-section {
     position: center;
     margin: 5px;
-    display: grid;
+    display: flex;
     background-color: violet;
     padding: 10px;
 
   }
 
-  .work {
-    flex: 1;
-    background-color: var(--white);
-    padding: 50px;
+  .column {
     display: flex;
-    justify-content: space-evenly;
+    height: 1200px;
+    width: 800px;
+    flex-direction: column;
+    margin: 0 auto;
   }
 
-  .card {
-    border-style: solid;
-    border-width: 1px;
-    padding: 10px;
-    flex: 0 0 300px;
-    box-shadow: 10px 10px 5px #aaaaaa;
-    margin: 20px;
+  .heading {
+    background-color: lightgoldenrodyellow;
+    width: 50%;
+    padding: 20px 40px;
+    color: red;
+  }
+
+  .work1, .work2, .work3 , .work4 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
   }
 
 
-  /*#containerGrid {
-    display: grid;
-    height: 500px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "horiseon Calculator"
-    "Puzzle RunBuddy" ;
-  }
-  .categoryGridArea {
-    background-position: center;
-    background-size: cover;
+  .work1 {
+    background-image: url("/images/02-portfolio-1.jpg");
     background-repeat: no-repeat;
-    margin: 5px;
-    cursor: pointer;
-    display: grid;
-    align-content: end;
-  } */
-  
+    background-position: center;
+  }
+ 
+  .work2 {
+    background-image: url("/images/02-portfolio-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .work3 {
+    background-image: url("/images/02-portfolio-3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .work4 {
+    background-image: url("/images/02-run-buddy.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
   p {
     margin: 3%;
     font-size: 15px;
