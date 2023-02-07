@@ -1,11 +1,23 @@
 # Portfolio
 A display showcasing skills during my journey as a web developer
-Acceptance Criteria
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
 
-When the page is loaded the page presents your name, a recent photo or avatar, and links to sections about you, your work, and how to contact you
-When one of the links in the navigation is clicked then the UI scrolls to the corresponding section
-When viewing the section about your work then the section contains titled images of your applications
-When presented with the your first application then that application's image should be larger in size than the others
-When images of the applications are clicked then the user is taken to that deployed application
-When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport
+#Description
+Glimpse of the first application uploaded on GitHub as an web developer. 
+
+Link to the URL:
+
+https://github.com/Shahee05/Portfolio/
+
+Screenshot of deployed website is below:
+
+![Alt text](../../../../Screenshot%202023-02-06%20at%2023.20.46.png)
+
+For Contact Me, there is a live link to the GitHub; however, there is not a live link for the Email option. 
+
+#License
+N/A
+
+#Project status
+
+Final stage complete. 
+Project is still ongoing.
