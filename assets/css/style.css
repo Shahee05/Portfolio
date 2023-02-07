@@ -11,7 +11,6 @@
     line-height: 1;
     background-color: lightpink;
   }
-
   
   nav {
     position: fixed;
@@ -57,11 +56,6 @@
     text-decoration: none;
   }
 
-  section {
-    height: 10vh;
-    width: 40%;
-    align-items: right;
-  }
 
   #navBar h1 {
     width: flex;
@@ -82,7 +76,7 @@
   }
 
   .page-section {
-    position: center;
+    position: center ;
     margin: 5px;
     display: flex;
     background-color: violet;
@@ -115,25 +109,25 @@
 
 
   .work1 {
-    background-image: url("/images/02-portfolio-1.jpg");
+    background-image: url("../../images/02-portfolio-1.jpg");
     background-repeat: no-repeat;
     background-position: center;
   }
  
   .work2 {
-    background-image: url("/images/02-portfolio-2.jpg");
+    background-image: url("../../images/02-portfolio-2.jpg");
     background-repeat: no-repeat;
     background-position: center;
   }
 
   .work3 {
-    background-image: url("/images/02-portfolio-3.jpg");
+    background-image: url("../../images/02-portfolio-3.jpg");
     background-repeat: no-repeat;
     background-position: center;
   }
 
   .work4 {
-    background-image: url("/images/02-run-buddy.jpg");
+    background-image: url("../../images/02-run-buddy.jpg");
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -145,10 +139,8 @@
     font-weight: bolder;
   }
 
-  footer {
-    display: flex;
+  
 
-  }
 
   @media screen and (max-width:700px) {
     body {
